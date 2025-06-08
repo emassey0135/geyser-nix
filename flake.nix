@@ -1,7 +1,7 @@
 {
   inputs = {
     nixpkgs = {
-      url = "github:NixOS/nixpkgs/nixos-24.11";
+      url = "github:NixOS/nixpkgs/nixos-25.05";
     };
     flake-utils = {
       url = "github:numtide/flake-utils";
@@ -18,7 +18,7 @@
             version = "1.0";
             src = fetchurl {
               url = "https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/standalone";
-              hash = "sha256-GCQVw5SDqkAnmsznQukL5d5UQyFzAVKFCWaeU0p5Tas=";
+              hash = "sha256-EdAlx4iBMZ79Uu8YVFgxIRHbBVxf3mo1wr2wSAvFZVU=";
             };
             phases = ["installPhase"];
             installPhase = ''
