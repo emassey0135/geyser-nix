@@ -18,7 +18,7 @@
             version = "1.0";
             src = fetchurl {
               url = "https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/standalone";
-              hash = "sha256-BSFoIkv3JaUQwdISMnhAPXYzJ9o5ZqNtwcHpohgcfmk=";
+              hash = "sha256-5zOQnCVtO1wx8Xvz3CRuYXYwYUJc5xDSPuRzyYn0RpQ=";
             };
             phases = ["installPhase"];
             installPhase = ''
